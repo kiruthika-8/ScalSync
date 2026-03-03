@@ -1,96 +1,99 @@
-🚀 Agentic-EDA
+# ScalSync
+## Agentic-EDA
 Autonomous Hardware Design Orchestration for FPGA Workflows
-
 Agentic-EDA is an AI-driven closed-loop hardware design system that integrates autonomous reasoning with traditional Electronic Design Automation (EDA) tools.
-
 Instead of merely generating HDL code, this system:
 
-Generates Verilog from natural language intent
-
-Writes and edits design files
-
-Invokes Vivado synthesis and simulation
-
-Analyzes tool logs
-
-Diagnoses errors
-
-Applies corrective modifications
-
+<p align="center">
+Generates Verilog from natural language intent<br>
+↓<br>
+Writes and edits design files<br>
+↓<br>
+Invokes Vivado synthesis and simulation<br>
+↓<br>
+Analyzes tool logs<br>
+↓<br>
+Diagnoses errors<br>
+↓<br>
+Applies corrective modifications<br>
+↓<br>
 Re-runs verification automatically
+</p>
 
 This transforms FPGA workflows from tool-driven iteration into intelligence-driven orchestration.
 
 
-🧠 Problem
+## Problem
 
 Traditional FPGA workflows follow repetitive manual cycles:
 
-Write HDL → Run synthesis → Debug logs → Fix → Re-run
+<p align="center">
+Write HDL<br>
+↓<br>
+Run synthesis<br>
+↓<br>
+Debug logs<br>
+↓<br>
+Fix<br>
+↓<br>
+Re-run
+</p>
 
 Engineers must repeatedly:
 
-Interpret verbose tool outputs
-
-Diagnose module mismatches
-
-Resolve simulation failures
-
-Manually re-trigger runs
+* Interpret verbose tool outputs
+* Diagnose module mismatches
+* Resolve simulation failures
+* Manually re-trigger runs
 
 This slows innovation and increases cognitive load.
 
-⚙️ Solution
+## Solution
 
 Agentic-EDA introduces a closed-loop workflow:
-Describe intent
-        ↓
-Autonomous HDL generation
-        ↓
-Vivado execution
-        ↓
-Log reasoning
-        ↓
-Self-correction
-        ↓
+<p align="center">
+Describe intent<br>
+↓<br>
+Autonomous HDL generation<br>
+↓<br>
+Vivado execution<br>
+↓<br>
+Log reasoning<br>
+↓<br>
+Self-correction<br>
+↓<br>
 Verification
-
+</p>
 The system embeds reasoning above deterministic EDA tools, converting static workflows into adaptive systems.
 
-🏗 System Architecture
+## System Architecture
 
-User Prompt
-      ↓
-AI Agent
-      ↓
-HDL + Testbench Generation
-      ↓
-File System Operations
-      ↓
-Vivado Automation (TCL + Shell)
-      ↓
-Simulation & Synthesis
-      ↓
-Log Analysis
-      ↓
-Error Diagnosis
-      ↓
+<p align="center">
+User Prompt<br>
+↓<br>
+AI Agent<br>
+↓<br>
+HDL + Testbench Generation<br>
+↓<br>
+File System Operations<br>
+↓<br>
+Vivado Automation (TCL + Shell)<br>
+↓<br>
+Simulation & Synthesis<br>
+↓<br>
+Log Analysis<br>
+↓<br>
+Error Diagnosis<br>
+↓<br>
 Auto-Fix & Re-run
+</p>
 
-✨ Features
-
-Autonomous Verilog generation
-
-Automatic testbench creation
-
-Vivado batch execution
-
-Self-healing error correction
-
-Simulation verification
-
-Waveform export support
-
-RTL schematic generation
-
-Closed-loop design orchestration
+## Features
+* Autonomous Verilog generation
+* Automatic testbench creation
+* Vivado batch execution
+* Self-healing error correction
+* Simulation verification
+* Waveform export support
+* RTL schematic generation
+* Closed-loop design orchestration
