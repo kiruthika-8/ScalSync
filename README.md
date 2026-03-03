@@ -1,13 +1,96 @@
-# ScalSync
-## Problem Statement
-Modern chip design workflows are manual, iterative, and time-consuming, requiring engineers to repeatedly write HDL, run EDA tools, analyze logs, and debug errors.
+🚀 Agentic-EDA
+Autonomous Hardware Design Orchestration for FPGA Workflows
 
-## System Architecture Diagram
-<img width="915" height="540" alt="image" src="https://github.com/user-attachments/assets/c12e798c-3059-43e1-87a3-09094fcf2996" />
+Agentic-EDA is an AI-driven closed-loop hardware design system that integrates autonomous reasoning with traditional Electronic Design Automation (EDA) tools.
 
-## Features
-- Autonomous HDL generation
-- Automated Vivado execution
-- Simulation verification
-- Error reasoning and correction
-- Waveform & schematic export
+Instead of merely generating HDL code, this system:
+
+Generates Verilog from natural language intent
+
+Writes and edits design files
+
+Invokes Vivado synthesis and simulation
+
+Analyzes tool logs
+
+Diagnoses errors
+
+Applies corrective modifications
+
+Re-runs verification automatically
+
+This transforms FPGA workflows from tool-driven iteration into intelligence-driven orchestration.
+
+
+🧠 Problem
+
+Traditional FPGA workflows follow repetitive manual cycles:
+
+Write HDL → Run synthesis → Debug logs → Fix → Re-run
+
+Engineers must repeatedly:
+
+Interpret verbose tool outputs
+
+Diagnose module mismatches
+
+Resolve simulation failures
+
+Manually re-trigger runs
+
+This slows innovation and increases cognitive load.
+
+⚙️ Solution
+
+Agentic-EDA introduces a closed-loop workflow:
+Describe intent
+        ↓
+Autonomous HDL generation
+        ↓
+Vivado execution
+        ↓
+Log reasoning
+        ↓
+Self-correction
+        ↓
+Verification
+
+The system embeds reasoning above deterministic EDA tools, converting static workflows into adaptive systems.
+
+🏗 System Architecture
+
+User Prompt
+      ↓
+AI Agent
+      ↓
+HDL + Testbench Generation
+      ↓
+File System Operations
+      ↓
+Vivado Automation (TCL + Shell)
+      ↓
+Simulation & Synthesis
+      ↓
+Log Analysis
+      ↓
+Error Diagnosis
+      ↓
+Auto-Fix & Re-run
+
+✨ Features
+
+Autonomous Verilog generation
+
+Automatic testbench creation
+
+Vivado batch execution
+
+Self-healing error correction
+
+Simulation verification
+
+Waveform export support
+
+RTL schematic generation
+
+Closed-loop design orchestration
