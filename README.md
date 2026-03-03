@@ -1,4 +1,4 @@
-# ScalSync
+# ScalSync - The next Antigravity for Electronic Design Automation.
 ## Agentic-EDA
 Autonomous Hardware Design Orchestration for FPGA Workflows
 Agentic-EDA is an AI-driven closed-loop hardware design system that integrates autonomous reasoning with traditional Electronic Design Automation (EDA) tools.
